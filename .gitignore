@@ -1,0 +1,35 @@
+# Essential .gitignore for ML/Notebook project
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+ENV/
+# Ignore local virtual environment folder
+venv1/
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+# Ignore Excel and data files
+*.xlsx
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.sav
+*.pkl
+*.joblib
+*.json
+*.db
+*.sqlite
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore VS Code settings
+.vscode/
+# Allow only algo.py, algo2.py, and notebook files
+!algo.py
+!algo2.py
+!*.ipynb
